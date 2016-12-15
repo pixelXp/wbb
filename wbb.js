@@ -8,7 +8,7 @@ $(document).ready(function() {
 		"responsive": true,
 		"lengthMenu": [ 25, 50, 100 ],
 		//"lengthChange": false,
-		"ajax": "wbb.txt",
+		"ajax": "https://raw.githubusercontent.com/pixelXp/wbb/master/wbb.txt",
 		initComplete: function () {
 			this.api().columns().every( function () {
 				var column = this;
