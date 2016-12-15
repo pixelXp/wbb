@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+	<title>WBB Onderhoud test</title>
+	<!--<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="media/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="wbb.css">-->
+	<!--<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.12.3.min.js"></script>-->
+	<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+	<!--<script type="text/javascript" language="javascript" src="wbb.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" language="javascript" src="media/js/dataTables.bootstrap.js"></script>-->
+
+	<link href="//wonenbreburg.nl/assets/styles/site.css" rel="stylesheet" type="text/css" />
+	<link href="//wonenbreburg.nl/assets/styles/content.css" rel="stylesheet" type="text/css" />
+	<link href="//wonenbreburg.nl//assets/styles/typography.css" rel="stylesheet" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body class="dt-example dt-example-bootstrap">
+	<ul class="skiplinks">
+	    <li class="audible"><a href="#content">Inhoud</a></li>
+	    <li><a href="#navigation" class="nav-control control-button" aria-label="navigatie menu" role="button"><span class="nav-control-button"><span class="audible">Ga naar Hoofd</span><span class="text">menu</span><span class="bar bar-1"></span><span class="bar bar-2"></span><span class="bar bar-3"></span></span></a></li>
+	    <li><a href="#search" class="search-control control-button" aria-label="zoek menu" role="button" aria-controls="search"><span class="audible">Zoeken</span></a></li>
+	</ul>
+
+	<main role="main" id="content">
+    <div class="wrapper">
+        <div class="content">
+
+            <h1>WonenBreburg <span>Onderhoud 2017</span></h1>
+
+
+            <!-- BREADCRUMBS //-->
+            <nav class="breadcrumbs">
+                <h2 id="ARIA-Label-breadcrumbs" class="audible">U bent hier:</h2>
+                <ul aria-labelledby="ARIA-Label-breadcrumbs">
+                        <li class="HomePage">
+                                <a href="/" hreflang="nl" title="Home">Home</a>
+                        </li>
+                        <li class="ContactPage">
+                                <a href="/over-ons/" hreflang="nl" title="Over ons">Over ons</a>
+                        </li>
+                        <li class="WebPage self">
+                                <span>Onze organisatie<span class="hide">(geselecteerd)</span></span>
+                        </li>
+                    </ul>
+            </nav>
+
+
+
+
+
+
+
+        <p class="intro">
+            <!--<link rel="stylesheet" type="text/css" href="http://www.pixelxp.nl/wbb-onderhoud/wbb.css">
+			<script type="text/javascript" language="javascript" src="http://www.pixelxp.nl/wbb-onderhoud/wbb.js"></script>-->
+			<link rel="stylesheet" type="text/css" href="//raw.githubusercontent.com/pixelXp/wbb/master/wbb.css">
+			<script type="text/javascript" language="javascript" src="//raw.githubusercontent.com/pixelXp/wbb/master/wbb.js"></script>
+        </p>
+
+
+<!--
+			<div class="table-responsive">
+				<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th class="hh1">Straat</th>
+							<th class="hh2">Nr</th>
+							<th class="hh3">Postcode</th>
+							<th class="hh5"></th>
+							<th class="hh6">Werkzaamheden</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+-->
+			<hr>
+			<p>Wzh = Werkzaamheden<br>
+			18 jaar+ = 18 jaar en ouder</p>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="header">
+        <h2 class="audible">Navigatie</h2>
+        <div class="wrapper">
+
+        <div class="navigationContainer">
+
+            <!-- MAIN NAVIGATION //-->
+            <nav role="navigation" class="navigation transform" id="navigation">
+                <h3 class="audible">Menu</h3>
+                <ul class="clearfix">
+                        <li class=" depth-1"><a href="/te-huur-te-koop/">Te huur - Te koop</a></li>
+                        <li class=" depth-1"><a href="/service/">Service</a></li>
+                        <li class="selected depth-1"><a href="/over-ons/">Over ons</a></li>
+
+                        <li>
+                            <a href="https://mijn.wonenbreburg.nl" class="button-login">Inloggen</a>
+                        </li>
+
+                </ul>
+
+            </nav>
+        </div>
+
+
+            <div class="search-container">
+    <form method="get" action="/zoeken/" role="search" id="search " class="search clearfix" novalidate="novalidate">
+        <div>
+            <h2 class="audible">Zoeken</h2>
+            <label for="infoSearchQuery" class="audible">Vraag of trefwoord</label>
+
+            <input class="query input input-text" id="infoSearchQuery" aria-expanded="false" aria-controls="liveSearch" name="query" type="text" autocomplete="off" placeholder="Zoeken">
+            <i class="if icoon-search" aria-hidden="true"></i>
+            <input type="submit" value="Zoeken" class="submit">
+            <!-- Livesearch //-->
+            <div id="liveSearch" aria-live="polite" aria-hidden="true" role="region" tabindex="-1" style="display: none;"></div>
+
+        </div>
+    </form>
+</div>
+
+            <a href="/" class="logo"><i class="if icoon-logo-1" aria-hidden="true"></i><i class="if icoon-logo-2" aria-hidden="true"></i><span class="audible">Naar de homepage</span></a>
+        </div>
+    </section>
+</body>
+</html>
